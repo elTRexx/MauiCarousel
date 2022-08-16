@@ -25,9 +25,7 @@ namespace MauiCarousel
             for (int i = 0; i< _carouselCount; i++)
             {
                 CarouselItems.Add($"Item #{i}");
-            }
-
-            //OnPropertyChanged(nameof(CarouselItems));
+            }            
         }        
     }
 }
